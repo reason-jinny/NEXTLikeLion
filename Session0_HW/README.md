@@ -13,10 +13,7 @@
 ##### 서비스 페이지 구경 와 주세요 ㅎㅎ
 
 
-[Surfee](https://surfee.co.kr "Surfee link")
-
-<http://surfee.co.kr/>
-
+[Surfee, 코딩 없이 나만의 페이지 만들기!](https://surfee.co.kr "Surfee link")
 
 
 
