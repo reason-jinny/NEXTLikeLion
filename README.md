@@ -18,7 +18,5 @@
 
 ![Surfee로 코딩 없이 나만의 페이지 만들기](/Desktop/Surfee.png)
 
-![캡처](/uploads/1848994ad25765da30fa8ef3684c67bc/캡처.PNG)
-
 ![Surfee로 코딩 없이 나만의 페이지 만들기](/desktop/Surfee.png "Surfee 홈페이지")
 
