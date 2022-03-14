@@ -1,7 +1,5 @@
 ## 안녕하세요, 사회학과 18학번 **이유진**입니다. 
 
-#### ~~어느새 반오십~~
-
 
 
 > ### 일이 삶이 되어도 좋으니 온전히 미칠 수 있는 일을 하고 싶습니다.
@@ -14,9 +12,15 @@
 
 ##### 서비스 페이지 구경 와 주세요 ㅎㅎ
 
+<<<<<<< HEAD:Session0_HW/README.md
 [Surfee](https://surfee.co.kr "Surfee link")
+=======
+<http://surfee.co.kr/>
+
+>>>>>>> dcb876ec1bf6eecb026db616ec8b37e74467dc0e:README.md
 
 
+![Surfee로 코딩 없이 나만의 페이지 만들기](/Desktop/Surfee.png)
 
 ![Surfee로 코딩 없이 나만의 페이지 만들기](/desktop/Surfee.png "Surfee 홈페이지")
 
