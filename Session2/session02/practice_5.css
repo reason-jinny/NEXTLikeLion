@@ -1,0 +1,48 @@
+.entire {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 400px;
+    background-color: rgba(235, 235, 235, 0.808);
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+.container1 {
+    height: 55px;
+    width: 55px;
+   
+}
+
+.container1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.container2 {
+    height: 39px;
+    margin-right: 70px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.number {
+    margin-left: 5px;
+    margin-top: 2px;
+    color: grey;
+}
+
+.container3 {
+    height: 39px;
+    color: rgb(165, 165, 165);
+}
+
+.text2 {
+    color: grey;
+}

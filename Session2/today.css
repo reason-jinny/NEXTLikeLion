@@ -1,0 +1,13 @@
+.box_container {
+    border: 2px solid black;
+    height: 300px;
+    width: 500px;
+    position: relative;
+}
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: purple;
+    position: absolute;
+    top: 150px;
+}
