@@ -17,6 +17,13 @@
 
 ###########################################################
 
+list = []
+x = 0
 
-core = input("양의 정수를 입력해주세요: ")
-
+while True:
+    num = int(input("양의 정수를 입력해 주세요!: "))
+    if num == -1:
+        break
+    list.append(num)
+    x = sum(list)/len(list)
+print(x)
