@@ -1,0 +1,154 @@
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+.navigation li.logo {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+
+#banner {
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+}
+
+video {
+    width: 100%;
+}
+
+#banner .content h1 {
+    position: relative;
+    top: 40px;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: -24px;
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 60px;
+}
+
+#banner .content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+
+
+#main {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    /* height: 1000px; */
+}
+
+h1 {
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    border: 1px dotted rgb(5, 123, 62);
+    color: rgb(5, 123, 62);
+    font-size: 14px;
+    line-height: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(5, 123, 62);
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 10px;
+}
+
+p {
+    color: grey;
+    font-size: 16px;
+    line-height: 48px;
+    margin-top: 60px;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(5, 123, 62);
+}
+
+.logo {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pull-quote {
+    margin: 20px auto;
+    width: 500px;
+}
+
+.byline {
+    border-bottom: 1px solid LightGrey;
+    border-top: 1px solid LightGrey;
+    color: DarkGrey;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.share {
+    border: 1px solid LightGrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.share a {
+    background: rgb(5, 123, 62);
+    border: 1px solid rgb(5, 123, 62);
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.share a:hover {
+    background: white;
+    border: 1px solid rgb(5, 123, 62);
+    color: rgb(5, 123, 62);
+}
