@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'result.css' %}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <h3>글자 수를 세어보자!</h3>
+    </div>
+    <div class="box">
+        <div class="textbox">
+            {{text}}
+        </div>
+    </div>
+    <div class="box">
+        <p>✅ 글자 수는! : {{total_len}}자</p>
+        <p>✅ 공백을 제외한 글자 수는! : {{no_blank_len}}자</p>
+        <p>✅ 단어 수는! : {{words}}개</p>
+    </div>
+    <div class="box">
+        <button type="button" onclick="location.href='count.html'">다시 하기</button>
+    </div>
+    <!-- <a href="{% url 'count' %}">다시 해보기</a> -->
+    <!-- <button type="button" href="{% url 'count' %}">다시 하기</button> -->
+</body>
+</html>
