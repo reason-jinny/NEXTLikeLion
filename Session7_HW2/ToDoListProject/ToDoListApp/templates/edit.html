@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h2>할 일 수정</h2>
+    <form action="" method="post">
+        {% csrf_token %}
+        <div>
+            <label for="title">제 &nbsp;&nbsp;목 </label>
+            <input type="text" name="title" id="title" value="{{ todo.title }}">
+        </div>
+        <br>
+        <div>
+            <label for="deadline">마감일</label>
+            <input type="date" name="deadline" id="deadline">
+        </div>
+        <br>
+        <div>
+            <label for="content">내용</label>
+            <textarea name="content" id="content" cols="32" rows="10">{{ todo.content }}</textarea>
+        </div>
+        <button type="submit">수정하기</button>
+    </form>
+</body>
+</html>

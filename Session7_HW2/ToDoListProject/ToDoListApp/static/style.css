@@ -1,0 +1,143 @@
+html {
+    background-color: rgb(133, 133, 255);
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #FF9500;
+    padding: 0px 20px 15px 20px;
+    border: 3px solid black;
+}
+
+h2 {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    margin: 0;
+    padding: 20px 0;
+    background-color: #FF9500;
+    color: black;
+    text-align: center;
+}
+
+
+/* home.html */
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.box {
+    flex-basis: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: aliceblue;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box:hover {
+    background-color: lightgray;
+    color: rgb(133, 133, 255);
+}
+
+.box a {
+    color: black;
+    text-decoration: none;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+
+.dday {
+    color: #FF9500;
+}
+
+.deadline {
+    font-size: 14px;
+}
+
+
+/* new와 edit */
+input {
+    padding: 2px;
+}
+
+textarea {
+    margin: 5px auto;
+    padding: 2px;
+}
+
+textarea[name], input[name] {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+textarea::placeholder, input::placeholder {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+button {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    margin: auto;
+    padding: 5px;
+    display: block;
+}
+
+button:hover {
+    color: rgb(133, 133, 255);
+    text-decoration: underline;
+}
+
+
+/* detail */
+.detail {
+    margin-left: 10px;
+}
+
+.detail div {
+    padding: 5px 0;
+}
+
+.content_d {
+    background-color: white;
+    width: 278px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.content_d span {
+    margin: 5px;
+}
+
+
+/* a 태그를 버튼 */
+.btn {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 15px;
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}

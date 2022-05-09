@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h2>할 일</h2>
+    <div class="detail">
+        <div>
+            <span class="title">{{ todo.title }}</span>
+        </div>
+        <div>
+            <span>마감일 : </span>
+            <span>{{ todo.deadline }}</span>
+        </div>
+        <div class="content_d">
+            <span>{{ todo.content }}</span>
+        </div>
+    </div>
+    <div>
+        <a class="btn" href="{% url 'home' %}">목록 보기</a>
+        <a class="btn" href="{% url 'edit' todo.pk %}">수정하기</a>
+        <a class="btn" href="{% url 'delete' todo.pk %}">삭제하기</a>
+    </div>
+</body>
+</html>
